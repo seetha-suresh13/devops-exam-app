@@ -1,4 +1,4 @@
-services:
+services: "3.8"
   flask:
     image: seethasuresh/devopsexamapp:latest
     container_name: flask_app
