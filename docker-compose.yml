@@ -38,3 +38,7 @@ services:
       retries: 10
 
 volumes:
+  mysql_data:
+    driver: local
+
+
