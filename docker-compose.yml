@@ -16,9 +16,6 @@ services:
     depends_on:
       mysql:
         condition: service_healthy
-    volumes:
-      - ./backend:/app
-      - ./frontend:/app/templates
 
   mysql:
     image: mysql:5.7
