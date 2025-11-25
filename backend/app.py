@@ -15,8 +15,8 @@ def get_db_connection():
     return mysql.connector.connect(
         host=os.getenv('MYSQL_HOST', 'mysql'),
         user=os.getenv('MYSQL_USER', 'root'),
-        password=os.getenv('MYSQL_PASSWORD', 'rootpass'),
-        database=os.getenv('MYSQL_DATABASE', 'devops_exam')
+        password=os.getenv('MYSQL_PASSWORD', 'admin123'),
+        database=os.getenv('MYSQL_DATABASE', 'jenkinsdb')
     )
 
 def read_certificate_template():
